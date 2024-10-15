@@ -1,11 +1,13 @@
 **Data Loading:**
 
 The dataset is loaded into a DataFrame using Pandas. The first and last 10 rows of data are displayed to understand the structure.
+
 **Data Information:**
 
 Columns and data types of the DataFrame are explored using .columns and .dtypes methods.
 The 'Date' column is converted to a datetime object and set as the index for easier time-series analysis.
 The .describe() method is used to generate descriptive statistics.
+
 **Univariate Analysis:**
 
 *Distribution of Customer Ratings:*
